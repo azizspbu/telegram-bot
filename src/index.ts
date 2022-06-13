@@ -14,6 +14,10 @@ bot.hears("hello", ctx => {
   ctx.reply("Hello to you too!");
 });
 
+bot.hears("hai", ctx => {
+  ctx.reply("Hello to you too!");
+});
+
 bot.launch();
 
 const app = express();
